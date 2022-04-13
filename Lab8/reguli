@@ -1,0 +1,12 @@
+Regulile suprascrierii
+
+
+1. Metoda care suprascrie trebuie sa aiba acelasi nume si aceeasi parametri ca metoda suprascrisa
+
+2. Tipul returnat daca:
+	* metoda suprascrisa este void sau foloseste un tip primitiv este acelasi
+	* pentru orice tip de obiect trebuie sa respecte polimorfismul
+	
+3. Modul de acces al metodei care suprascrie trebuie sa fie cel putin la fel de public (public -> protected -> default -> private).
+
+4. Daca metoda suprascrisa arunca un anumit tip de exceptii, metoda care suprascrie nu poate arunca mai multe, doar mai putine
